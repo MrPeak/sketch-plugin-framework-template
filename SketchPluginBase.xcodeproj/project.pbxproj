@@ -10,6 +10,10 @@
 		397A34621F2871BC00F10FF6 /* SketchPluginBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397A34581F2871BB00F10FF6 /* SketchPluginBase.framework */; };
 		397A34671F2871BC00F10FF6 /* SketchPluginBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397A34661F2871BC00F10FF6 /* SketchPluginBaseTests.m */; };
 		397A34691F2871BC00F10FF6 /* SketchPluginBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 397A345B1F2871BC00F10FF6 /* SketchPluginBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		397A34781F28724200F10FF6 /* SBMain.h in Headers */ = {isa = PBXBuildFile; fileRef = 397A34761F28724200F10FF6 /* SBMain.h */; };
+		397A34791F28724200F10FF6 /* SBMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 397A34771F28724200F10FF6 /* SBMain.m */; };
+		397A347B1F28734500F10FF6 /* SketchPluginBase.js in Resources */ = {isa = PBXBuildFile; fileRef = 397A347A1F28734500F10FF6 /* SketchPluginBase.js */; };
+		397A347D1F28751000F10FF6 /* SketchPluginBase.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 397A347A1F28734500F10FF6 /* SketchPluginBase.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +26,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		397A347C1F2874FE00F10FF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				397A347D1F28751000F10FF6 /* SketchPluginBase.js in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		397A34581F2871BB00F10FF6 /* SketchPluginBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SketchPluginBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		397A345B1F2871BC00F10FF6 /* SketchPluginBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SketchPluginBase.h; sourceTree = "<group>"; };
@@ -29,6 +46,9 @@
 		397A34611F2871BC00F10FF6 /* SketchPluginBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchPluginBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		397A34661F2871BC00F10FF6 /* SketchPluginBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchPluginBaseTests.m; sourceTree = "<group>"; };
 		397A34681F2871BC00F10FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397A34761F28724200F10FF6 /* SBMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBMain.h; sourceTree = "<group>"; };
+		397A34771F28724200F10FF6 /* SBMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBMain.m; sourceTree = "<group>"; };
+		397A347A1F28734500F10FF6 /* SketchPluginBase.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SketchPluginBase.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +93,9 @@
 			children = (
 				397A345B1F2871BC00F10FF6 /* SketchPluginBase.h */,
 				397A345C1F2871BC00F10FF6 /* Info.plist */,
+				397A34761F28724200F10FF6 /* SBMain.h */,
+				397A347A1F28734500F10FF6 /* SketchPluginBase.js */,
+				397A34771F28724200F10FF6 /* SBMain.m */,
 			);
 			path = SketchPluginBase;
 			sourceTree = "<group>";
@@ -93,6 +116,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397A34781F28724200F10FF6 /* SBMain.h in Headers */,
 				397A34691F2871BC00F10FF6 /* SketchPluginBase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,6 +132,7 @@
 				397A34541F2871BB00F10FF6 /* Frameworks */,
 				397A34551F2871BB00F10FF6 /* Headers */,
 				397A34561F2871BB00F10FF6 /* Resources */,
+				397A347C1F2874FE00F10FF6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -178,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397A347B1F28734500F10FF6 /* SketchPluginBase.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397A34791F28724200F10FF6 /* SBMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
